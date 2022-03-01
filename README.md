@@ -33,17 +33,16 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 - Synopsys 28nm PDK: The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 # Full Adder Ckt using GDI technique
-![Inverter](https://user-images.githubusercontent.com/100522966/155893158-d4e660bd-86b3-4030-a142-3747dd995419.JPG)
+<img width="666" alt="fulladder" src="https://user-images.githubusercontent.com/100597348/156211958-04fee82b-2232-4fd2-a1a7-e7840e2c35b1.png">
+
 
 # Buffer Ckt
-![Xor](https://user-images.githubusercontent.com/100522966/155893190-c46562ef-97d0-49e3-8f29-ba2f571bc662.JPG)
-
+<img width="464" alt="buffer" src="https://user-images.githubusercontent.com/100597348/156212008-3aa7d35d-2545-4edf-9c11-48c7da34305b.png">
 
 # Simulated Waveform
-![Parity_gene_wave](https://user-images.githubusercontent.com/100522966/156008074-c6031885-7147-4c40-846a-244d4950f7dd.JPG)
-
+<img width="957" alt="waveform" src="https://user-images.githubusercontent.com/100597348/156212071-31521bd3-f9cc-4132-a1c9-ffc1f1cb8c69.png">
 # Schematic Netlist
-The netlist is present here : [Netlist](https://github.com/AniJoshi12/Party-Generator/edit/main/Netlist)
+The netlist is present here : [Netlist]()
 
 # Acknowledgements
 - [Kunal Ghosh , Co-Founder , VSD Corp. Pvt. Lim.](https://github.com/kunalg123)
