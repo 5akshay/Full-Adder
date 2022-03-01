@@ -9,7 +9,7 @@ This repository presents the Design of Full Adder ckt using 28nm CMOS Technology
 - [Full Adder Ckt using GDI technique](https://github.com/5akshay/Full-Adder/blob/main/README.md#CMOS-Inverter-Gate)
 - [Buffer Ckt](https://github.com/5akshay/Full-Adder/blob/main/README.md#CMOS-XOR-Gate)
 - [Parity Generator Testbench Design](https://github.com/5akshay/Full-Adder/blob/main/README.md#Parity-Generator-Testbench-Design)
-- [Simulated Waveform]https://github.com/5akshay/Full-Adder/blob/main/README.md#Simulated-Waveform)
+- [Simulated Waveform](https://github.com/5akshay/Full-Adder/blob/main/README.md#Simulated-Waveform)
 - [Schematic Netlist](https://github.com/5akshay/Full-Adder/blob/main/README.md#Schematic-Netlist)
 - [References](https://github.com/5akshay/Full-Adder/blob/main/README.md#References)
 - [Acknowledgements](https://github.com/5akshay/Full-Adder/blob/main/README.md#Acknowledgements)
