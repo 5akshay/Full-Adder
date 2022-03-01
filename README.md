@@ -44,8 +44,7 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 
 
 # Schematic Netlist
-- The netlist is present here : 
-- [Netlist](https://github.com/5akshay/Full-Adder/blob/main/netlist.txt)
+- The netlist is present here : [Netlist](https://github.com/5akshay/Full-Adder/blob/main/netlist.txt)
 
 
 # Acknowledgements
