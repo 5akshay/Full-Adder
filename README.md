@@ -3,8 +3,8 @@ Using gate diffusion Input
 # DESIGN OF EVEN/ODD 4-BIT PARITY GENERATOR USING TWO TRANSISTOR XOR MODULE
 This repository presents the design of Parity Generator using 28nm CMOS Technology and tool used is Synopsis Custom Compiler.
 # Table Of Content
-- [Abstract](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Abstract)
-- [Introduction](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Introduction)
+- [Abstract](https://github.com/5akshay/Full-Adder/blob/main/README.md#Abstract)
+- [Introduction](https://github.com/5akshay/Full-Adder/blob/main/README.md#Introduction)
 - [Working](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Working)
 - [Tool Used](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#Tool-Used)
 - [CMOS Inverter Gate](https://github.com/AniJoshi12/Party-Generator/blob/main/README.md#CMOS-Inverter-Gate)
