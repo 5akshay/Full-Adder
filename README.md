@@ -71,7 +71,8 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 ![Xor](https://user-images.githubusercontent.com/100522966/155893190-c46562ef-97d0-49e3-8f29-ba2f571bc662.JPG)
 
 # Parity Generator
-![Parity_gene](https://user-images.githubusercontent.com/100522966/156007810-cc253626-0b31-4a6e-8a32-caff9ab709b0.JPG)
+![snapshot](https://user-images.githubusercontent.com/100597348/156192260-2cee0ab5-b49d-4831-9773-92743047ad41.png)
+
 
 # Parity Generator Testbench Design
 ![Parity_gene_tb](https://user-images.githubusercontent.com/100522966/156007922-3579f5fd-f365-487b-8016-445c631a3551.JPG)
