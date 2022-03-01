@@ -1,5 +1,4 @@
-# Full-Adder
-Using gate diffusion Input
+# Full-Adder Using gate diffusion Input
 # Design 10T Full Adder using Modified Gate Diffusion Input Technique.
 This repository presents the Design of Full Adder ckt using 28nm CMOS Technology and tool used is Synopsis Custom Compiler.
 # Table Of Content
@@ -8,7 +7,6 @@ This repository presents the Design of Full Adder ckt using 28nm CMOS Technology
 - [Tool Used](https://github.com/5akshay/Full-Adder/blob/main/README.md#Tool-Used)
 - [Full Adder Ckt using GDI technique](https://github.com/5akshay/Full-Adder/blob/main/README.md#CMOS-Inverter-Gate)
 - [Buffer Ckt](https://github.com/5akshay/Full-Adder/blob/main/README.md#CMOS-XOR-Gate)
-- [Parity Generator Testbench Design](https://github.com/5akshay/Full-Adder/blob/main/README.md#Parity-Generator-Testbench-Design)
 - [Simulated Waveform](https://github.com/5akshay/Full-Adder/blob/main/README.md#Simulated-Waveform)
 - [Schematic Netlist](https://github.com/5akshay/Full-Adder/blob/main/README.md#Schematic-Netlist)
 - [References](https://github.com/5akshay/Full-Adder/blob/main/README.md#References)
@@ -41,10 +39,6 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 ![Xor](https://user-images.githubusercontent.com/100522966/155893190-c46562ef-97d0-49e3-8f29-ba2f571bc662.JPG)
 
 
-
-# Parity Generator Testbench Design
-![Parity_gene_tb](https://user-images.githubusercontent.com/100522966/156007922-3579f5fd-f365-487b-8016-445c631a3551.JPG)
-
 # Simulated Waveform
 ![Parity_gene_wave](https://user-images.githubusercontent.com/100522966/156008074-c6031885-7147-4c40-846a-244d4950f7dd.JPG)
 
@@ -59,10 +53,10 @@ The netlist is present here : [Netlist](https://github.com/AniJoshi12/Party-Gene
 - Sameer Durgoji , NIT Karnataka
 
 # References
-[1] K. Mangla and S. Saxena, "Analysis of Different CMOS Full Adder Circuits," International Journal of Engineering and Technical Research (IJETR), vol. 3, no. 5, pp. 241-245, May 2015.
-[2] Zarin Tabassum, Meem Shahrin, Aniqa Ibnat, Tawfiq Amin, “Comparative Analysis and Simulation of Different CMOS Full Adders Using Cadence in 90 nm Technology” 2018 3rd International Conference for Convergence in Technology (I2CT)
-[3] https://www.javatpoint.com/full-adder-in-digital-electronics
+- [1] K. Mangla and S. Saxena, "Analysis of Different CMOS Full Adder Circuits," International Journal of Engineering and Technical Research (IJETR), vol. 3, no. 5, pp. 241-245, May 2015.
+- [2] Zarin Tabassum, Meem Shahrin, Aniqa Ibnat, Tawfiq Amin, “Comparative Analysis and Simulation of Different CMOS Full Adders Using Cadence in 90 nm Technology” 2018 3rd International Conference for Convergence in Technology (I2CT)
+- [3] https://www.javatpoint.com/full-adder-in-digital-electronics
 
 # Author
-Akshay Rahangdale , MTech VLSI Design , Vellore Institute Of Technology , Vellore
+Akshay Rahangdale, MTech VLSI Design, Vellore Institute Of Technology, Vellore
 
