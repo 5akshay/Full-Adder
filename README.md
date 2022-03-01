@@ -20,20 +20,12 @@ Full adder circuit may be a important element within the style of application of
 # Circuit Details
 One of the significant differences between GDI & CMOS based structure is that, instead of connecting VDD & Ground to the source of PMOS & NMOS respectively, input signals are given in GDI cell. The basic GDI cell was suggested by Morgenshtein. It has three input terminals: G (gate input by PMOS & NMOS shorted), P (source input of PMOS), and N (source input of NMOS). GDI based full adder architecture depicted in Fig can be divided into two parts. In the first stage, XOR & XNOR function are generated. The XOR gate (M1, M2, M3, M4), uses less number of transistors as compared to conventional design of XOR gate using CMOS logic, which results in improving the overall performance. In Fig M1, M3, M5, M7, M10 are PMOS transistors and M2, M4, M6, M8, M9 are NMOS transistors. Both the bulks of PMOS & NMOS are connected to source.
 - Truth Table
-![IMG20220218174656__01](https://user-images.githubusercontent.com/100522966/156021375-95a4c002-123b-486d-bb41-f6431148d66b.jpg)
+![full-adder2](https://user-images.githubusercontent.com/100597348/156207340-b12ec67a-5bf5-42ea-a889-c8459f067a64.png)
 
 - The truth table can be verified with the help of following calculations
 
-
-![image](https://user-images.githubusercontent.com/100522966/156019591-67a3fc94-c704-463d-94dc-8878aa3cd674.png)
-
-Coming to the CMOS Design , I designed xor gate with the help 
-of 2 transistors and for each xor gate there is need of one 
-complementary input which is designed with the help of inverters. 
-For 4 bit Parity generator there is need of 3 xor circuits and for 
-complete xor operation it takes 4 transistors, so total number of 
-transistors to design this circuit is 12. 
-
+Sum = x' y' z+x' yz+xy' z'+xyz
+Carry = xy+xz+yz
 
 # Tool Used
 - Synopsys Custom Compiler: The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart
@@ -70,10 +62,7 @@ The netlist is present here : [Netlist](https://github.com/AniJoshi12/Party-Gene
 # References
 [1] K. Mangla and S. Saxena, "Analysis of Different CMOS Full Adder Circuits," International Journal of Engineering and Technical Research (IJETR), vol. 3, no. 5, pp. 241-245, May 2015.
 [2] Zarin Tabassum, Meem Shahrin, Aniqa Ibnat, Tawfiq Amin, “Comparative Analysis and Simulation of Different CMOS Full Adders Using Cadence in 90 nm Technology” 2018 3rd International Conference for Convergence in Technology (I2CT)
-
-[3] https://www.electronicshub.org/parity-generator-and-parity-check/
-
-[4] https://old.amu.ac.in/emp/studym/100006525.pdf
+[3] https://www.javatpoint.com/full-adder-in-digital-electronics
 
 # Author
 Akshay Rahangdale , MTech VLSI Design , Vellore Institute Of Technology , Vellore
