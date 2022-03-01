@@ -1,0 +1,90 @@
+*  Generated for: PrimeSim
+*  Design library name: adder
+*  Design cell name: adder_switch_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Tue Mar  1 16:43:44 2022
+
+.global gnd!
+********************************************************************************
+* Library          : adder
+* Cell             : buffer
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt buffer a gnd_1 vdd y
+xm1 y net16 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm0 net16 a vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm3 y net16 gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm2 net16 a gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+.ends buffer
+
+********************************************************************************
+* Library          : adder
+* Cell             : adder_switch
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt adder_switch carry cin gnd_1 gnd2 inb in_a sum vdd vdd2
+xm7 inb net56 net67 vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm6 net66 cin net56 vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm5 net52 net56 vdd2 vdd2 p105 w=0.1u l=0.03u nf=1 m=1
+xm4 net56 in_a inb vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm1 net63 inb vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm11 net52 net56 gnd2 gnd2 n105 w=0.1u l=0.03u nf=1 m=1
+xm9 cin net56 net67 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm8 net66 cin net52 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm3 net56 in_a net63 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm2 net63 inb gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xi12 net66 gnd_1 vdd sum buffer
+xi13 net67 gnd_1 vdd carry buffer
+.ends adder_switch
+
+********************************************************************************
+* Library          : adder
+* Cell             : adder_switch_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 carry cin gnd! gnd! in_b in_a sum net12 net38 adder_switch
+v2 net12 gnd! dc=1.8
+v18 net38 gnd! dc=1.8
+v19 in_b gnd! dc=0 pulse ( 0 1 0 1n 1n 10u 20u )
+v4 cin gnd! dc=0 pulse ( 0 1 0 1n 1n 20u 40u )
+v3 in_a gnd! dc=0 pulse ( 0 1 0 1n 1n 5u 10u )
+c10 sum gnd! c=1p
+c9 carry gnd! c=1p
+
+
+
+
+
+
+
+
+.tran '1u' '40u' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(cin) v(in_a) v(in_b) v(carry) v(sum)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
