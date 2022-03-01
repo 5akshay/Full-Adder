@@ -42,7 +42,7 @@ of the Synopsys Custom Design Platform, Custom Compiler provides design entry, s
 # Simulated Waveform
 <img width="957" alt="waveform" src="https://user-images.githubusercontent.com/100597348/156212071-31521bd3-f9cc-4132-a1c9-ffc1f1cb8c69.png">
 # Schematic Netlist
-The netlist is present here : 
+- The netlist is present here : 
 - [Netlist](https://github.com/5akshay/Full-Adder/blob/main/netlist.txt)
 # Acknowledgements
 - [Kunal Ghosh , Co-Founder , VSD Corp. Pvt. Lim.](https://github.com/kunalg123)
