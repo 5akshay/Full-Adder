@@ -23,9 +23,8 @@ One of the significant differences between GDI & CMOS based structure is that, i
 ![full-adder2](https://user-images.githubusercontent.com/100597348/156207340-b12ec67a-5bf5-42ea-a889-c8459f067a64.png)
 
 - The truth table can be verified with the help of following calculations
-
--Sum = x' y' z+x' yz+xy' z'+xyz.
--Carry = xy+xz+yz
+- Sum = x' y' z+x' yz+xy' z'+xyz.
+- Carry = xy+xz+yz
 
 # Tool Used
 - Synopsys Custom Compiler: The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart
